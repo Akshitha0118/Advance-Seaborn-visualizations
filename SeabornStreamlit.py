@@ -19,7 +19,7 @@ sns.set_style('darkgrid')
 # ---------------------------------------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\ADMIN\vs code projects\movie_1.csv")  
+    return pd.read_csv("movie_1.csv")  
 
 movie = load_data()   # 559 rows × 6 columns
 
